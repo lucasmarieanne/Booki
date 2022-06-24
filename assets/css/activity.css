@@ -1,0 +1,106 @@
+.activity {
+    padding: 50px 3%;
+}
+
+.activity h2 {
+    font-size: 21px;
+    margin-bottom: 30px;
+}
+
+.container-activity {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 40px;
+    background-color: #fff;
+}
+
+.activity-left,
+.activity-right {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+}
+
+.col,
+.row {
+    display: inline-block;
+    height: auto;
+    width: 300px;
+    box-shadow: 0 0 20px rgb(222, 222, 222);
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 300ms;
+}
+
+.col:hover,
+.row:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 8px 8px 0px #00388b;
+}
+
+.port-image,
+.parc-image {
+    height: 400px;
+    overflow: hidden;   
+}
+
+.port-image img,
+.parc-image img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: all 300ms;
+}
+
+.col-row {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.pomegues-image,
+.frioul-image,
+.notre-dame-image,
+.longchamp-image {
+    height: 150px;
+    overflow: hidden;
+}
+
+.pomegues-image img,
+.frioul-image img,
+.notre-dame-image img,
+.longchamp-image img {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transition: all 300ms;
+}
+
+.col:hover .port-image img,
+.col:hover .parc-image img,
+.row:hover .pomegues-image img,
+.row:hover .frioul-image img,
+.row:hover .notre-dame-image img,
+.row:hover .longchamp-image img {
+    transform: scale(1.06) rotate(-1deg);
+    filter: grayscale(100%);
+}
+
+.text h3 {
+    text-align: start;
+    padding-left: 10px;
+    transition: all 300ms;
+}
+
+.col:hover .text h3,
+.row:hover .text h3 {
+    color: #0065FC;
+}

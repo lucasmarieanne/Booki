@@ -1,0 +1,321 @@
+/* Mobile */
+
+@media screen and (min-width: 2000px) {
+    footer {
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    body {
+        max-width: 1440px;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    header {
+        margin: 0 auto;
+        justify-content: flex-start;
+    }
+
+    .logo {
+        margin-right: 830px;
+    }
+    
+    .cards {
+        justify-content: start;
+    }
+}
+
+@media screen and (max-width: 1390px) {
+    .container-activity {
+        justify-content: center;
+    }
+
+    .col-row {
+        display: block;
+    }
+
+    .row {
+        margin-left: 30px;
+    }
+
+    .pomegues-image,
+    .frioul-image,
+    .notre-dame-image,
+    .longchamp-image {
+        height: 400px;
+    }
+
+    .pomegues-image img,
+    .frioul-image img,
+    .notre-dame-image img,
+    .longchamp-image img {
+        height: 400px;
+    }
+
+    .activity-left,
+    .activity-right {
+        gap: 10px;
+    }
+}
+
+
+@media screen and (max-width: 1380px) {
+    .cards {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .left {
+        width: 100%;
+        margin-right: 0;
+        margin-top: 30px;
+    }
+
+    .case-left {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .right {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+
+@media screen and (max-width: 1050px) {
+
+    .container-activity {
+        justify-content: center;
+    }
+
+    .activity-left,
+    .activity-right {
+        flex-direction: column;
+    }
+
+    .col-row {
+        display: flex;
+        width: 100%;
+    }
+
+    .row {
+        margin-left: 0%;
+    }
+
+    .col {
+        margin-bottom: 40px;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .filter {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .filter h1 {
+        padding-right: 0px;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 0;
+        flex-direction: column;
+        width: 100%;
+        height: 130px;
+    }
+
+    .logo img {
+        margin-top: 20px;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .nav-list {
+        display: flex;
+        width: 100%;
+    }
+    
+    .nav-list li {
+        width: 100%;
+    }
+    
+    .nav-list li a {
+        display: inline-block;
+        width: 100%;
+        padding: 0;
+    }
+    
+    .nav-list li a:hover {
+        color: #0065FC;
+    }
+    
+    .nav-list .nav-active {
+        color: #0065FC;
+        border-bottom: 3px #0065FC solid;
+        border-top: none;
+        padding-top: 0;
+        padding-bottom: 15px;
+    }
+
+    .nav-list .nav-gray {
+        border-bottom: 3px #F2F2F2 solid;
+        padding-bottom: 15px;
+    }
+
+    .nav-list .nav-gray:hover {
+        border-bottom: 3px #0065FC solid;
+        padding-top: 0;
+        border-top: 0;
+    }
+
+    button {
+        display: none;
+    }
+
+    form {
+        width: 300px;
+    }
+    
+    form .mobile {
+        display: block;
+        border-radius: 15px;
+        background-color: #0065FC;
+        color: #fff;
+        padding: 15px 20px;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .cards {
+        padding: 0;
+    }
+
+    .left,
+    .right {
+        padding: 20px;
+        border-radius: 0;
+    }
+
+    .bloc-title {
+        padding-top: 30px;
+    }
+
+    .left {
+        background-color: transparent;
+    }
+    
+    .card-image-right img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .right {
+        border-radius: 0;
+    }
+
+    .card-right {
+        border-radius: 20px;
+        height: 150px;
+        overflow: hidden;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 0 20px rgb(193, 193, 193);
+        transition: all 300ms;
+    }
+
+    .port-image,
+    .parc-image {
+        height: 150px;
+    }
+
+    .port-image img,
+    .parc-image img {
+        height: 150px;
+    }
+
+    .pomegues-image,
+    .frioul-image,
+    .notre-dame-image,
+    .longchamp-image {
+        height: 150px;
+    }
+
+    .pomegues-image img,
+    .frioul-image img,
+    .notre-dame-image img,
+    .longchamp-image img {
+        height: 150px;
+    }
+
+    .footer-title {
+        padding-top: 40px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .col,
+    .row {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .logo img {
+        height: 45px;
+    }
+
+    .nav-list li a {
+        font-size: 15px;
+    }
+
+    .left h1 {
+        padding-top: 30px;
+    }
+
+
+    .bloc-title i {
+        padding-left: 20px;
+        font-size: 17px;
+    }
+
+    .card-title {
+        font-size: 14px;
+    }
+
+    .card-stars i {
+        font-size: 11px;
+    }
+
+    .text h3 {
+        font-size: 14px;
+    }
+
+    .col,
+    .row {
+        width: 300px;
+    }
+    
+}
