@@ -11,8 +11,7 @@
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    gap: 40px;
-    background-color: #fff;
+    gap: 30px;
 }
 
 .activity-left,

@@ -3,10 +3,9 @@
     flex-direction: column;
     padding: 50px 20px 50px;
     margin-right: 40px;
-    width: 850px;
+    width: 100%;
     background-color: #F2F2F2;
     border-radius: 20px;
-    /* max-width: 1000px; */
 }
 
 .left h1 {
